@@ -1,0 +1,47 @@
+{
+  "name": "mood-insights",
+  "version": "1.0.0",
+  "description": "Mood Insights",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbamparop/mood-insights.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbamparop/mood-insights/issues"
+  },
+  "homepage": "https://github.com/gbamparop/mood-insights#readme",
+  "dependencies": {
+    "create-react-app": "^3.0.1",
+    "express": "*",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "client-oauth2": "^4.2.4",
+    "cors": "*",
+    "fbgraph": "^1.4.4",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "musicmatch": "^0.3.2",
+    "musixmatch-node": "^1.0.2",
+    "nodemon": "^1.18.10",
+    "passport": "*",
+    "passport-jwt": "*",
+    "request": "^2.88.0",
+    "simple-oauth2": "^2.2.1",
+    "to": "^0.2.9",
+    "twitter": "^1.7.1",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.1"
+  }
+}
